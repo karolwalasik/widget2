@@ -1,0 +1,116 @@
+body {
+	font-family: 'LatoLatin-Black', sans-serif;
+	color: white;
+}
+
+.main {
+	height: 100vh;
+}
+
+.widget-container {
+	background-image: url(../assets/BG.png);
+	background-size: cover;
+}
+
+.user_container {
+	padding-top: 170px;
+	padding-bottom: 140px;
+}
+
+.photo_container {
+	width: 133px;
+	height: 133px;
+	border-radius: 50%;
+	border: 10px solid rgba(255, 255, 255, 0.2)
+}
+
+.photo {
+	width: 105px;
+	height: 105px;
+	background-image: url(../assets/photo1.png);
+	background-position: 118px -3px;
+	background-size: 127%;
+}
+
+.user h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.user h2 {
+	font-family: 'LatoLatin-Light', sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+
+.icons {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 18px;
+	background-color: rgba(19, 30, 68, 0.4);
+}
+
+.icons_container {
+	flex-basis: 62%;
+}
+
+i {
+	font-size: 24px;
+	padding: 12px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.yellow-circle,
+.pink-circle {
+	position: relative;
+}
+
+.yellow-circle::after,
+.pink-circle::after {
+	content: '4';
+	position: absolute;
+	display: block;
+	height: 16px;
+	width: 16px;
+	top: -3px;
+	right: -3px;
+	background-color: #ffc000;
+	border-radius: 50%;
+	font-size: 10px;
+	line-height: 16px;
+	color: black;
+	text-align: center;
+	font-family: 'LatoLatin-Black', sans-serif;
+}
+
+.pink-circle::after {
+	content: '7';
+	background-color: #d74f89;
+	color: white;
+}
+
+.icon h3 {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.icon h4 {
+	font-size: 8px;
+	font-family: 'LatoLatin-Light', sans-serif;
+	padding-top: 4px;
+	margin-bottom: -4px;
+}
+
+h3.big {
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-top: 8px;
+}
+
+.arrow {
+	padding: 41px;
+}
